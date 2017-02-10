@@ -6,5 +6,5 @@ steps:
         working_directory: ${{main_clone}}
         commands:
             - echo ls volume
-            - bash -c "echo ben > /coedfresh/volume/ben.txt"
-            - bash -c "ls /coedfresh/volume"
+#            - bash -c "echo ben > /coedfresh/volume/ben.txt"
+            - bash -c "ls /coedfresh"
