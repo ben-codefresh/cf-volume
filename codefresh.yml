@@ -1,0 +1,9 @@
+version: '1.0'
+
+steps:
+    prepare:
+        image: ubuntu:latest
+        commands:
+            - echo ls volume
+            - echo ben > ${{CF_VOLUME}}/ben.txt
+            - ls ${{CF_VOLUME}}
