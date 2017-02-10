@@ -7,7 +7,3 @@ steps:
         commands:
             - sh ./checkfiles.sh
 
-#            - ls
-#            - echo ls volume
-#            - bash -c "echo ben >  /codefresh/volume/ben.txt"
-#            - bash -c "ls /codefresh/volume"
