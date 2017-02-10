@@ -8,5 +8,5 @@ steps:
             - echo ls current dir
             - ls
             - echo ls volume
-            - bash -c "echo ben > /codefresh/volume/ben.txt"
+            - bash -c "echo ben >  ${{CF_VOLUME}}/ben.txt" #/codefresh/volume
             - bash -c "ls ${{CF_VOLUME}}"
