@@ -3,6 +3,7 @@ version: '1.0'
 steps:
     prepare:
         image: ubuntu:latest
+        working_directory: ${{main_clone}}
         commands:
             - echo ls volume
             - bash -c "echo ben > /coedfresh/volume/ben.txt"
