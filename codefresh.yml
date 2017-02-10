@@ -7,4 +7,4 @@ steps:
         commands:
             - echo ls volume
             - bash -c "echo ben > /codefresh/volume/ben.txt"
-            - bash -c "ls /coedfresh/volume"
+            - bash -c "ls /codefresh/volume"
