@@ -5,5 +5,5 @@ steps:
         image: ubuntu:latest
         commands:
             - echo ls volume
-            - echo ben > ${{CF_VOLUME}}/ben.txt
+            - base -c "echo ben > ${{CF_VOLUME}}/ben.txt"
             - bash -c "ls ${{CF_VOLUME}}"
