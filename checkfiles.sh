@@ -5,7 +5,7 @@ then
 	echo "$file found."
 else
 	echo "$file not found."
-	echo ben > $file
+	echo test > $file
 	cat $file
 fi
 
