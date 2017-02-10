@@ -6,4 +6,4 @@ steps:
         commands:
             - echo ls volume
             - echo ben > ${{CF_VOLUME}}/ben.txt
-            - ls ${{CF_VOLUME}}
+            - bash -c "ls ${{CF_VOLUME}}"
