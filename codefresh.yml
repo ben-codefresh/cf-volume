@@ -5,5 +5,5 @@ steps:
         image: ubuntu:latest
         commands:
             - echo ls volume
-            - base -c "echo ben > /coedfresh/volume/ben.txt"
+            - bash -c "echo ben > /coedfresh/volume/ben.txt"
             - bash -c "ls /coedfresh/volume"
