@@ -6,6 +6,7 @@ steps:
         working_directory: ${{main_clone}}
         commands:
             - sh ./checkfiles.sh
+
 #            - ls
 #            - echo ls volume
 #            - bash -c "echo ben >  /codefresh/volume/ben.txt"
